@@ -34,7 +34,7 @@ requirements:
     - scipy
     - pytest
     - clangdev 4.0*  # [osx]
-    - libcxx 4.0.*  # [osx]
+    # - libcxx 4.0.*  # [osx]
     - openmp 4.0.*  # [osx]
   run:
     - python
@@ -43,7 +43,7 @@ requirements:
     - {{ pin_compatible('numpy') }}
     - scipy
     - clangdev 4.0*  # [osx]
-    - libcxx 4.0.*  # [osx]
+    # - libcxx 4.0.*  # [osx]
     - openmp 4.0.*  # [osx]
 
 test:
