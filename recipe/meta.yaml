@@ -42,7 +42,7 @@ requirements:
     - openblas
     - {{ pin_compatible('numpy') }}
     - scipy
-    - clangdev 4.0*  # [osx]
+    # - clangdev 4.0*  # [osx]
     # - libcxx 4.0.*  # [osx]
     - openmp 4.0.*  # [osx]
 
