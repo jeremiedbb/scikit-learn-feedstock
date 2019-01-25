@@ -33,12 +33,18 @@ requirements:
     - numpy
     - scipy
     - pytest
+    - clangdev 4.0*  # [osx]
+    - libcxx 4.0.*  # [osx]
+    - openmp 4.0.*  # [osx]
   run:
     - python
     - blas 1.1 {{ variant }}
     - openblas
     - {{ pin_compatible('numpy') }}
     - scipy
+    - clangdev 4.0*  # [osx]
+    - libcxx 4.0.*  # [osx]
+    - openmp 4.0.*  # [osx]
 
 test:
   requires:
