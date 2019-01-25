@@ -33,7 +33,7 @@ requirements:
     - numpy
     - scipy
     - pytest
-    - clangdev 4.0*  # [osx]
+    # - clangdev 4.0*  # [osx]
     # - libcxx 4.0.*  # [osx]
     - openmp 4.0.*  # [osx]
   run:
