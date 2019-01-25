@@ -7,9 +7,9 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ version }}.tar.gz
-  url: https://github.com/scikit-learn/scikit-learn/archive/{{ version }}.tar.gz
-  sha256: a5df291430f7b2d4e1b0d95680d49f170f28e37cf6594c0b7fc5e4f17330d0b0
+  fn: kmeans-wheels.tar.gz
+  url: https://github.com/jeremiedbb/scikit-learn/archive/kmeans-wheels.tar.gz
+  sha256: 416f54956d02052638fc60d369d3de34d05ceaa52951aef03c7d23d0ff89ab1b
 
 build:
   number: 1401
