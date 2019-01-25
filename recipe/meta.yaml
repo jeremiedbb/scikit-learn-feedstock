@@ -33,14 +33,15 @@ requirements:
     - numpy
     - scipy
     - pytest
-    - openmp 4.0.*  # [osx]
+    #- openmp 4.0.*  # [osx]
+    - openmp  # [osx]
   run:
     - python
     - blas 1.1 {{ variant }}
     - openblas
     - {{ pin_compatible('numpy') }}
     - scipy
-    - openmp 4.0.*  # [osx]
+    - openmp  # [osx]
 
 test:
   requires:
