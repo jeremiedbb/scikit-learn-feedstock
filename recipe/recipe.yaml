@@ -46,7 +46,7 @@ requirements:
     - scipy >=1.13.0
     - joblib >=1.4.0
     - threadpoolctl >=3.5.0
-    - narwhals >= 2.0.1
+    - narwhals >=2.0.1
     # See https://github.com/conda-forge/openmp-feedstock/issues/126
     - if: osx
       then: llvm-openmp
@@ -58,7 +58,7 @@ requirements:
     - scipy >=1.10.0
     - joblib >=1.4.0
     - threadpoolctl >=3.5.0
-    - narwhals >= 2.0.1
+    - narwhals >=2.0.1
 
 tests:
   - python:
