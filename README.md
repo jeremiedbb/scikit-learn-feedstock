@@ -263,19 +263,13 @@ conda config --add channels conda-forge/label/scikit-learn_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `scikit-learn` can be installed with `conda`:
+Once the `conda-forge/label/scikit-learn_rc` channel has been enabled, `scikit-learn` can be installed with `conda`:
 
 ```
 conda install scikit-learn
 ```
 
 or with `mamba`:
-
-```
-mamba install scikit-learn
-```
-
-It is possible to list all of the versions of `scikit-learn` available on your platform with `conda`:
 
 ```
 mamba install scikit-learn
@@ -304,25 +298,6 @@ mamba repoquery whoneeds scikit-learn --channel conda-forge/label/scikit-learn_r
 
 # List dependencies of `scikit-learn`:
 mamba repoquery depends scikit-learn --channel conda-forge/label/scikit-learn_rc
-```
-
-or with `mamba`:
-
-```
-mamba search scikit-learn --channel conda-forge
-```
-
-Alternatively, `mamba repoquery` may provide more information:
-
-```
-# Search all versions available on your platform:
-mamba repoquery search scikit-learn --channel conda-forge
-
-# List packages depending on `scikit-learn`:
-mamba repoquery whoneeds scikit-learn --channel conda-forge
-
-# List dependencies of `scikit-learn`:
-mamba repoquery depends scikit-learn --channel conda-forge
 ```
 
 
